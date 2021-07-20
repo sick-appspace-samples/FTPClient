@@ -1,19 +1,4 @@
---[[----------------------------------------------------------------------------
 
-  Application Name: FTPClient
-
-  Description:
-  Creating FTP Client
-
-
-  This sample sets up a FTP server listening on port 12345 with a user account
-  serving the contents of the ram filesystem. Then it creates an FTP client,
-  connects to the server and uploads a file.
-
-  The script can be run using the emulator. If everything works, the script reports
-  that the file has been successfully written.
-
-------------------------------------------------------------------------------]]
 --Start of Global Scope---------------------------------------------------------
 
 -- Create a ftp server instance
